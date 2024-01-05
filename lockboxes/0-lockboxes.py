@@ -1,15 +1,17 @@
 #!/usr/bin/python3
 """ canUnlockAll """
 
+
 def canUnlockAll(boxes):
     """
-    determines if all the boxes can be opened 
-    
+    determines if all the boxes can be opened
+
     Args:
         - boxes: list of lists
     """
     # check if boxes is a list of lists
-    if not isinstance(boxes, list) or  not all(isinstance(box, list) for box in boxes):
+    if not isinstance(boxes, list) or not all(isinstance(box,
+         list) for box in boxes):
         return False
     # check if list is empty
     if len(boxes) == 0:
