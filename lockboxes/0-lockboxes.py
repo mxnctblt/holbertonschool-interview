@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
     """
     # check if boxes is a list of lists
     if not isinstance(boxes, list) or not all(
-        isinstance(box, list) for box in boxes):
+            isinstance(box, list) for box in boxes):
         return False
     # check if list is empty
     if len(boxes) == 0:
