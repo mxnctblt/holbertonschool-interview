@@ -10,8 +10,8 @@ def canUnlockAll(boxes):
         - boxes: list of lists
     """
     # check if boxes is a list of lists
-    if not isinstance(boxes, list) or not all(isinstance(box,
-         list) for box in boxes):
+    if not isinstance(boxes, list) or not all(
+        isinstance(box, list) for box in boxes):
         return False
     # check if list is empty
     if len(boxes) == 0:
