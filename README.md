@@ -1,1 +1,1 @@
-directory for algorythm projects and iinterview exercices
+directory for algorythm projects and interview exercices at Holberton School
