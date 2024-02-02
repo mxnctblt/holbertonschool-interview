@@ -13,7 +13,7 @@ void print_grid_unstable(int grid[3][3])
     {
         for (j = 0; j < 3; j++)
         {
-            if (j)*
+            if (j)
                 printf(" ");
             printf("%d", grid[i][j]);
         }
