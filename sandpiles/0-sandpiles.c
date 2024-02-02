@@ -3,7 +3,7 @@
 /**
  * print_grid_unstable - print grid
  * @grid: grid to print
- * Return: Nothing
+ * Return: nothing
  */
 void print_grid_unstable(int grid[3][3])
 {
