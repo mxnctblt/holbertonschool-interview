@@ -20,6 +20,7 @@ void print_grid_unstable(int grid[3][3])
         printf("\n");
     }
 }
+
 /**
  * sandpiles_check - check if sandpiles is stable or not
  * @grid1: sandpile to check
@@ -52,6 +53,7 @@ int sandpiles_check(int grid1[3][3], int grid[3][3])
     }
     return (0);
 }
+
 /**
  * redistribution_sand - redistribution of sand
  * @grid1: sandpile
@@ -77,6 +79,7 @@ void redistribution_sand(int grid1[3][3], int i, int j)
     if (row_b >= 0 && row_b < 3 && col_b >= 0 && col_b < 3)
         grid1[row_b][col_b] += 1;
 }
+
 /**
  * sandpiles_sum - Computes the sum of two sandpiles
  * @grid1: first sandpile
