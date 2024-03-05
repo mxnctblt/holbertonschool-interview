@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ UTF-8 Validation """
 
+
 def validUTF8(data) -> bool:
     """ validate utf-8 in data comming """
     count = 0
