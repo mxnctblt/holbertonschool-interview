@@ -10,7 +10,7 @@ int is_palindrome(unsigned long n)
     unsigned long reversed = 0;
     unsigned long original = n;
 
-    // get the reverse number
+    /* get the reverse number */
     while (n > 0)
     {
         reversed = reversed * 10 + n % 10;
