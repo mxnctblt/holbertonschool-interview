@@ -8,10 +8,8 @@
 void menger(int level)
 {
     int size = pow(3, level), i, j, quotient, print_sharp;
-
     if (level < 0)
         return;
-
     for (i = 0; i < size; i++)
     {
         for (j = 0; j < size; j++)
