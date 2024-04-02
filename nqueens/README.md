@@ -16,9 +16,7 @@
 
 File: [0-nqueens.py](0-nqueens.py/)
 
-Chess grandmaster Judit Polgï¿½r, the strongest female chess player of all time
-
-The N queens puzzle is the challenge of placing N non-attacking queens on an Nï¿½N chessboard. Write a program that solves the N queens problem.
+The N queens puzzle is the challenge of placing N non-attacking queens on an NxN chessboard. Write a program that solves the N queens problem.
 
 - Usage: nqueens N
 
@@ -33,7 +31,7 @@ The N queens puzzle is the challenge of placing N non-attacking queens on an Nï¿
 
   > - One solution per line
   > - Format: see example
-  > - You donï¿½t have to print the solutions in a specific order
+  > - You don't have to print the solutions in a specific order
 
 - You are only allowed to import the sys module
 
