@@ -13,5 +13,6 @@ Write a function that searches for a value in a sorted array of integers.
 - Your function must return the index where `value` is located
 - You can assume that `array` will be sorted in ascending order
 - If `value` is not present in `array` or if `array` is `NULL`, your function must return `-1`
-- Every time you split the array, you have to print the new array (or subarray) you’re searching in (See example)
+- Every time you split the array, you have to print the new array (or subarray) you’re searching in
 - You have to use recursion. You may only use one loop (`while`, `for`, `do while`, etc.) in order to print the array
+
