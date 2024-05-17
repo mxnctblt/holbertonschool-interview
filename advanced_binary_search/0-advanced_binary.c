@@ -8,7 +8,6 @@
  * array is sorted in ascending order
  * @size: number of elements in array
  * @value: the given value to search for
- *
  * Return: the first index where value is located, or -1 on failure
  */
 int advanced_binary(int *array, size_t size, int value)
