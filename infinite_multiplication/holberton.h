@@ -1,18 +1,15 @@
-#ifndef _MULTI_H_
-#define _MULTI_H_
-
-#define _TRUE_ 1
-#define _FALSE_ 0
-#define MAX1 2500
-#define MAX2 2500
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int _putchar(char c);
-void multiply(char *num_1, char *num_2);
-int is_a_number(char *a_str);
-void sum_and_print(char answer[MAX1][MAX2], int len_1, int len_2);
-int str_len(char *a);
+int is_digit(char c);
+int _strlen(char *s);
+int is_number(char *s);
+void print_message(char *message);
+void _memset_with_zero(char *s, int len);
+void multiply(char *n1, char *n2, int len_first, int len_second);
 
-#endif /*_MULTI_H_*/
+#endif
+
